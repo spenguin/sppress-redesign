@@ -1,0 +1,42 @@
+/** Footer styles **/
+
+footer {
+    background-color: $SPPDarkBlue;
+    .footer-widgets {
+        background-color: transparent!important;
+    }
+    .top-footer-wrap {
+        width: 100%!important;
+        padding-left: 0!important;
+    }
+    .bottom-footer-wrap {
+        background-color: transparent!important;
+    }
+    @media screen and (min-width: 769px) {
+        .footer-widgets {
+            background-color: transparent!important;
+            .store-container {
+                display: flex;
+                justify-content: space-between;
+                section[class^="footer-widget-"] {
+                    margin-right: 0!important;
+                } 
+                .footer-widget-2,
+                .footer-widget-5
+                {
+                    width: 28%!important;
+                    
+                }               
+            }
+        }
+    }
+
+    .footer-widget-5 {
+        border: 1px solid white;
+        input[type=submit] {
+            box-shadow: none;
+            background-color: $SPPBlue;
+            border-color: $SPPDarkBlue;
+        }
+    }
+}

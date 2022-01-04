@@ -1,0 +1,53 @@
+/** Buttons styles */
+/*button,
+a.add_to_cart_button,
+a.wc-forward,
+a.wc-backward
+{
+    color: white!important;
+    background: $SPPBlue!important;
+    border-width: 0!important;
+    border-radius: 3px 3px 15px 3px!important;
+    padding: 0 20px!important;
+    line-height: 2rem!important;
+    border-color: $SPPDarkBlue!important;
+    border-width: 0 0 2px 0!important;
+    font-family: $headingFamily!important;
+}
+
+button.menu-toggle {
+    position: relative;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: $SPPGreen;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}*/
+
+a.blog-preview-btn {
+    display: inline-block;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: $SPPGrey;
+    padding: 9px 25px;
+    border: 1px solid $SPPGrey;
+    &:hover {
+        transition: all 0.5s ease-in-out 0s;
+        color: white;
+        background-color: $SPPDarkBlue;
+        border-color: $SPPDarkBlue;
+    }
+    &.btn-reverse {
+        background-color: white;
+        &:hover {
+            background-color: $SPPDarkBlue;
+            border-color: $SPPDarkBlue;
+        }
+    }
+} 

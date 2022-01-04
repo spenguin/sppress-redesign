@@ -1,0 +1,12 @@
+/** Type styles **/
+
+body, p, a {
+    font-family: $bodyFamily;
+}
+
+a {
+    color: $SPPBlue;
+    &:hover {
+        color: $SPPDarkBlue;
+    }
+}

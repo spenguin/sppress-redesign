@@ -1,0 +1,21 @@
+/** GDPR style **/
+
+#cookie-law-info-bar {
+    font-family: $headingFamily!important;
+    //max-width: 90%!important;
+    a {
+        font-family: $headingFamily!important;
+    }
+    .cli-bar-container {
+        .cli-plugin-button {
+            color: white;
+            background: $SPPBlue!important;
+            border-radius: 3px 3px 15px 3px;
+            padding: 0 20px;
+            line-height: 2rem;
+            border: 2px solid $SPPDarkBlue;
+            border-width: 0 0 2px 0!important; 
+            font-family: $headingFamily!important;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+/** Roundel styles */
+
+.roundel {
+    background-color: $SPPOrange;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 1.0rem;
+    color: $SPPDarkBlue;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    z-index: 1;
+    text-align: center;
+    line-height: 75px;
+    transform: rotate(20deg);
+}

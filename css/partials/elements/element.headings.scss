@@ -1,0 +1,35 @@
+/** Headings styles */
+
+h1.creator_title {
+    margin-bottom: 3px;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: calc( 1.2rem + 0.1vw );
+}
+
+h3.widget-title {
+    text-transform: uppercase;
+    font-size: calc( 1rem + 0.6vw );
+    font-family: Open Sans;
+    font-weight: 400;
+}
+.best-sellers_wrapper h3,
+.blog-and-news-wrapper h3
+{
+    color: $SPPBlue!important;
+}
+.blog-and-news-posts .blog-preview-info > h2 {
+    line-height: 1;
+}
+
+.product-categories-wrapper .store-container > h3
+//.events-wrapper h3
+{
+    color: white!important;
+}

@@ -1,0 +1,85 @@
+/** Calendar styling */
+
+button.tribe-common-c-btn {
+    box-shadow: none!important;
+    background-color: $SPPBlue!important;
+    font-family: Open Sans!important;
+    font-weight: 400!important;
+}
+.tribe-events .tribe-events-calendar-month__multiday-event-bar-inner {
+    background-color: $SPPLightBlue;
+}
+.tribe-events .datepicker .month.active,
+.tribe-events .datepicker .month.active.focused 
+{
+    background-color: $SPPBlue;
+}
+.tribe-events-header__top-bar .tribe-common-c-btn-border-small {
+    background-color: $SPPLightBlue!important;
+    font-family: Open Sans!important;
+    border-color: $SPPDarkBlue!important;
+    color: white!important;
+}
+
+.spp_events {
+    background-color: white;
+    position: relative;
+    li {
+        height: 100px;
+        .sp_event_list-event {
+            border: 1px solid $SPPLightBlue;
+            display: flex;
+            flex-direction: column;
+            //margin-bottom: 12px;
+            height: 100%;
+            @media screen and (min-width: 768px) {
+                flex-direction: row;
+            }
+
+        }
+        .sp_event_list-event-date {
+            background-color: $SPPPaleBlue;
+            color: $SPPDarkBlue;
+            width: 100%;//30%;
+            padding: 2px;
+            text-align: center;
+            font-size: calc( 0.5rem + 0.3vw);
+            line-height: 1.1;
+            display: table;
+            &>span {
+                vertical-align: middle;
+                display: none;
+                @media screen and (min-width: 768px) {
+                    display: table-cell;
+                }
+            }
+            @media screen and (min-width: 768px) {
+                width: 30%;
+                .sp_event_list-event-date_short {
+                    display: none;
+                }
+            }
+        }        
+        .sp_event_list-event-text {
+            width: 100%;//70%;
+            padding: 2px;
+            //font-size: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            h3 {
+                font-family: Open Sans;
+                font-size: calc( 0.6rem + 0.5vw );
+                color: $SPPGrey;
+                font-weight: 300;
+                margin-bottom: 0px;
+                text-transform: uppercase;
+                line-height: 1 !important;
+            }
+            @media screen and (min-width: 768px) {
+                width: 70%;
+            }
+        }
+    }
+}

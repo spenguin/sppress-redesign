@@ -1,0 +1,31 @@
+/** Styling for Featured Title */
+.spp-featured-title {
+    position: relative;
+    &.newest {
+        h3 {
+            background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+            bottom: 17%;
+            color: $SPPDarkBlue;
+            display: block;
+            left: 0;
+            padding: 13px 0;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            transition: all 0.2s ease-in-out 0s;
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            width: 100%;
+            &:hover {
+                background: rgba(68, 160, 225, 0.8);
+            }            
+        }
+    }
+    a {
+        height: 240px;
+        overflow: hidden;
+        padding-left: 0;
+        padding-top: 0;
+        display: block;
+    }
+
+}

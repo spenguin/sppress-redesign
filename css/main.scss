@@ -1,0 +1,28 @@
+/*
+Theme Name: Soaring Penguin Press
+Theme URI: Theme URI: https://accesspressthemes.com/wordpress-themes/storevilla/
+description: StoreVilla Child Theme for Soaring Penguin Press site
+Author: John Anderson
+Author URI: http://soaringpenguin.com
+Template: storevilla
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: storevilla
+*/
+
+@import "partials/settings.global";
+@import "partials/settings.colours";
+//@import "partials/fonts.all";
+
+@import "partials/structure/structure.blocks";
+
+//@import "partials/tools/tools.mixins";
+//@import "partials/tools/tools.media-queries";
+
+@import "partials/elements.all";
+
+
+@import "partials/components.all";
+//@import "partials/elements.all";

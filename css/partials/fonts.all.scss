@@ -1,0 +1,14 @@
+/* Fonts styling */
+/*font-family: 'Lato', sans-serif;
+
+font-family: 'Merriweather', serif;*/
+
+$bodyFamily: 	'Lato', sans-serif;//'Merriweather', serif;
+$headingFamily:	'Merriweather', serif;//'Lato', sans-serif;
+
+body {
+	font-size: 87.5%;
+	font-family: $bodyFamily;
+	line-height: 1.8rem;
+	//color: $RHDarkGrey;
+}

@@ -1,0 +1,44 @@
+/** Blocks styles **/
+aside.widget-area {
+    float: right;
+        float: right;
+        width: 26%;
+        padding: 45px 0 0 0;
+        font-size: 13px;
+        display: block;
+}
+
+.creator.has-post-thumbnail {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .single-creator_image {
+        width: 48%;
+    }
+    .single-creator_summary {
+        width: 48%;
+    }
+}
+.product-categories-wrapper {
+    padding: 40px 0 50px;
+}
+
+.blog-and-news-wrapper .custom-html-widget {
+    border: 1px solid $SPPGrey;
+    overflow: hidden;
+    padding: 30px 30px 10px; 
+}
+
+.events-wrapper {
+    background-color: $SPPDarkBlue;
+    padding: 40px 0 50px;
+}
+
+
+.post-type-archive-creator #primary {
+    width: 100%;
+    @media screen and (min-width: 1150px) {
+        width: 70%;
+    }
+}

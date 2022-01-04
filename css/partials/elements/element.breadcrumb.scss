@@ -1,0 +1,15 @@
+/** Breadcrumb style */
+
+nav.woocommerce-breadcrumb {
+    display: block;
+    margin: 0 0 30px;
+    font-size: 14px;
+    padding: 0;
+    color: #767676;
+    a {
+        color: #767676;
+        &:hover {
+            color: $SPPBlue;
+        }
+    }
+}

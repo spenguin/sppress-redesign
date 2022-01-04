@@ -1,0 +1,24 @@
+/** Navigation style **/
+
+.menu-main-menu-container {
+    li {
+        a {
+            font-size: 1.5rem;
+            padding: 10px 0 10px 5%;
+            color: white;
+            background-color: $SPPDarkBlue;
+            border-bottom: 1px solid $SPPBlue;
+            &:hover {
+                background-color: $SPPBlue;
+            }
+        }
+        &.current_page_item a {
+            background-color: $SPPBlue;
+            color: $SPPOrange;
+            
+        }
+        &.cart-has-items a {
+            background-color: $SPPGreen;
+        }
+    }
+}

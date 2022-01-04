@@ -1,0 +1,12 @@
+/** Breadcrumb style */
+
+nav.spp-breadcrumb {
+    display: block;
+    margin: 0 0 30px;
+    font-size: 14px;
+    padding: 0;
+    color: #767676;
+    a:hover {
+        color: $SPPBlue;
+    }
+}
