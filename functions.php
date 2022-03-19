@@ -18,7 +18,8 @@ define( 'CORE_PLUGINS_PATH', plugins_url() );
 define( 'CORE_WIDGET', CORE_INC . 'widgets/' );
 define( 'CORE_SHORTCODE', CORE_INC . 'shortcodes/' );
 define( 'CORE_VENDOR', CORE_PATH . 'vendor/' );
-define( 'MAILCHIMP_API_KEY', '964bd85c38d43a5e0a32bf48b87e3619-us4' );
+
+require_once 'settings.php';
 
 //require_once CORE_INC . 'images.php';
 //require_once CORE_INC . 'woocommerce.php';
